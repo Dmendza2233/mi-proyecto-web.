@@ -46,16 +46,6 @@ header {
     z-index: 1000;
 }
 
-.informacion ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: clamp(10px, 3vw, 30px);
-    overflow-x: auto;
-}
 
 .informacion a {
     font-family: sans-serif;
@@ -218,8 +208,9 @@ form {
     font-size: 18px;
     color: black;
     font-weight: 700;
-    border-radius: 20px;
     width: 90%;
+    border-radius: 15px;
+    align-items: center;
     max-width: 600px;
     padding: 30px;
     box-sizing: border-box;
@@ -251,7 +242,6 @@ form {
 .contactanos form{
     background: rgba(5, 5, 5, 0.7);
     padding: clamp(20px, 5vw, 40px);
-    border-radius: 15px;
     width: 100%;
     max-width: 500px;
     box-shadow: 0 4px 15px rgb(255, 255, 255);
@@ -261,6 +251,7 @@ form {
 
 form input,
 form textarea {
+    margin: 12px auto;
     display: block; 
     width: 100%;     
     max-width: 400px;     
@@ -270,12 +261,6 @@ form textarea {
     font-size: 16px;
     box-sizing: border-box;
     transition: border 0.3s, box-shadow 0.3s;
-}
-
-li { 
-    margin: 10px 0; 
-    padding: 0; 
-    list-style: none; 
 }
 
 form input:focus,
@@ -300,6 +285,8 @@ form textarea {
     border: none;
     border-radius: 8px;
     background-color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 700;
     color: rgb(0, 0, 0);
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
