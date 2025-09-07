@@ -191,7 +191,6 @@ h3 {
     max-width: 900px; 
     line-height: 1.6; 
     color: #f1f1f1;
-
 }
 
 .servicio img {
@@ -276,7 +275,11 @@ form textarea {
     transition: border 0.3s, box-shadow 0.3s;
 }
 
-li { margin: 10px 0; padding: 0; list-style: none; }
+li { 
+    margin: 10px 0; 
+    padding: 0; 
+    list-style: none; 
+}
 
 form input:focus,
 form textarea:focus {
@@ -289,6 +292,7 @@ form textarea {
     height: 120px; 
     resize: none;  
 }
+
 .contactanos button {
     display: block;
     width: 100%;
